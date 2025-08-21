@@ -31,8 +31,8 @@ dependencies = [
     "geoviews>=1.14.1",
     "llvmlite>=0.44.0",
     "numba>=0.61.2",
-    "ipykernel",
-    "pip"
+    "pip",
+    "jupyter>=1.1.1",
 ]
 
 [tool.uv.pip]
