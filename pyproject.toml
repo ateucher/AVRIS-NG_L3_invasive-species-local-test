@@ -1,7 +1,8 @@
 [project]
 name = "test-cloud-access"
 version = "0.1.0"
-requires-python = ">= 3.13.5"
+# Not ideal to pin to a specific version, but there are not llvmlite binaries for python > 3.13
+requires-python = "==3.13.5"
 dependencies = [
     "datetime",
     "geopandas",
@@ -30,6 +31,8 @@ dependencies = [
     "geoviews>=1.14.1",
     "llvmlite>=0.44.0",
     "numba>=0.61.2",
+    "ipykernel",
+    "pip"
 ]
 
 [tool.uv.pip]
