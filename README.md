@@ -12,11 +12,13 @@ The dependencies are listed in the `pyproject.toml` file. You can install them a
 set up the environemt with:
 
 ```bash
+uv venv
+source .venv/bin/activate
 uv lock
 uv sync
 ```
 
-Then the notebook can be run.
+Then choose the environment's Kernel within the notebook, and the notebook can be run.
 
 Note: the files `ct_invasive.gpkg` and `dsp.nc` are not included in the repository; they 
 were downloaded from the Hub for local use.
